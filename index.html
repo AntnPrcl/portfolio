@@ -131,8 +131,16 @@
 										<a href='#about' class='btn-custom section-toggle' data-section='about' >
 											Plus d'informations
 										</a>
+
+										<a href='#resume' class='btn-custom section-toggle' data-section='resume' >
+											Mon CV
+										</a>
+
+										<a href='#projets' class='btn-custom section-toggle' data-section='projets' >
+											Mes Projets
+										</a>
 										
-										<a href='#resume' class='btn-custom section-toggle' data-section='contact' >
+										<a href='#contact' class='btn-custom section-toggle' data-section='contact' >
 											Contacts
 										</a>
 										
@@ -544,7 +552,7 @@
 				<!--=====================================================
 					Portfolio Section
 				=====================================================-->
-				<section id='portfolio' class='section portfolio-section border-d' >
+				<section id='projets' class='section portfolio-section border-d' >
 					
 					<div class='section-block portfolio-block' >
 						
@@ -552,42 +560,20 @@
 							
 							
 							<div class='section-header' >
-								<h2>My <strong class='color' >Works</strong></h2>
+								<h2>Mes <strong class='color' >Projets</strong></h2>
 							</div>
 							
-							<ul class='portfolio-filters' >
-								<li>
-									<a href='#' class='active' data-group='all' >
-										All
-									</a>
-								</li>
-								<li>
-									<a href='#' data-group='web' >
-										Web
-									</a>
-								</li>
-								<li>
-									<a href='#' data-group='tech' >
-										Tech
-									</a>
-								</li>
-								<li>
-									<a href='#' data-group='photography' >
-										Photography
-									</a>
-								</li>
-							</ul>
 							
 							<ul class='portfolio-items' >
 								
 								<li data-groups='["web","tech"]' >
 									<div class='inner' >
-										<img src='img/portfolio/1.jpg' alt>
+										<img src='img/portfolio/rootMe-logo.png' alt>
 										
 										<div class='overlay' >
 											
 											<a href='#popup-1' class='view-project' >
-												View Project
+												Voir le projet
 											</a>
 											
 											<!--project popup-->
@@ -595,19 +581,21 @@
 												<figure>
 													
 													<!--project popup image-->
-													<img src='img/portfolio/1.jpg' alt>
+													<img src='img/portfolio/rootMe-logo.png' alt>
 												
 												</figure>
 												<div class='content' >
 													
 													<!--project popup title-->
-													<h4>My Project Title</h4>
+													<h4>Root-Me</h4>
 													
 													<!--project popup description-->
 													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+														Apprentissage autodidacte de la cybersécurité avec la plateforme Root-Me. Cette plateforme fonctionne avec un système de défi que chaque participant doit relever un à un dans plusieurs domaines qu'il s'agisse de programmation, de forensic, de cryptographie ou d'intrusion. Root-Me permet donc de connaitre un large panel de faille.
 													</p>
-													
+													<p>
+														<a href="https://www.root-me.org/Antoine-POURCEL?lang=en">Mon compte Root-Me</a>
+													</p>
 												</div>
 												
 											</div>
@@ -619,12 +607,12 @@
 								
 								<li data-groups='["tech","photography"]' >
 									<div class='inner' >
-										<img src='img/portfolio/2.jpg' alt>
+										<img src='img/portfolio/logo-anssi.png' alt>
 										
 										<div class='overlay' >
 											
 											<a href='#popup-2' class='view-project' >
-												View Project
+												Voir le projet
 											</a>
 											
 											<!--project popup-->
@@ -632,17 +620,17 @@
 												<figure>
 													
 													<!--project popup image-->
-													<img src='img/portfolio/2.jpg' alt>
+													<img src='img/portfolio/logo-anssi.png' alt>
 												
 												</figure>
 												<div class='content' >
 													
 													<!--project popup title-->
-													<h4>My Project Title</h4>
+													<h4>MOOC de l'ANSSI</h4>
 													
 													<!--project popup description-->
 													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+														Afin d'être averti des risques de sécurité auqels font face les entreprises et les institutions nationales, L'Agence Nationale de la Sécurité des Systèmes d'Informations (ANSSI) à mis en place un cours en ligne sur les bonnes pratiques à adopter sur les outils informatiques en matière de sécurité. Je suis en train de suivre ce cours afin d'obtenir le certificat qui est accordé à la fin de cette formation.
 													</p>
 													
 												</div>
@@ -656,12 +644,12 @@
 								
 								<li data-groups='["web","photography"]' >
 									<div class='inner' >
-										<img src='img/portfolio/3.jpg' alt>
+										<img src='img/portfolio/seloger.png' alt>
 										
 										<div class='overlay' >
 											
 											<a href='#popup-3' class='view-project' >
-												View Project
+												Voir le projet
 											</a>
 											
 											<!--project popup-->
@@ -669,17 +657,20 @@
 												<figure>
 													
 													<!--project popup image-->
-													<img src='img/portfolio/3.jpg' alt>
+													<img src='img/portfolio/seloger.png' alt>
 												
 												</figure>
 												<div class='content' >
 													
 													<!--project popup title-->
-													<h4>My Project Title</h4>
+													<h4>Scrapper du site SeLoger.fr</h4>
 													
 													<!--project popup description-->
 													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+														Afin d'avoir des données sur les biens immobiliers en vente pour pouvoir procéder à une étude de marché, ce projet consistait à récupérer les informations de toutes les annonces du site seloger.fr de villes voulues. Ce projet à été fait en Python avec la librairie BeautifulSoup et requests afin d'utiliser une succession de proxy et contourner les blocages IP de SeLoger. 
+													</p>
+													<p>
+														<a href="https://github.com/AntnPrcl/Scrapper_seloger">Voir le projet sur GitHub</a>
 													</p>
 													
 												</div>
@@ -694,12 +685,12 @@
 								
 								<li data-groups='["web"]' >
 									<div class='inner' >
-										<img src='img/portfolio/4.jpg' alt>
+										<img src='img/portfolio/corona_picto.png' alt>
 										
 										<div class='overlay' >
 											
 											<a href='#popup-4' class='view-project' >
-												View Project
+												Voir le projet
 											</a>
 											
 											<!--project popup-->
@@ -707,17 +698,20 @@
 												<figure>
 													
 													<!--project popup image-->
-													<img src='img/portfolio/4.jpg' alt>
+													<img src='img/portfolio/corona_picto.png' alt>
 												
 												</figure>
 												<div class='content' >
 													
 													<!--project popup title-->
-													<h4>My Project Title</h4>
+													<h4>SolidariT COVID</h4>
 													
 													<!--project popup description-->
 													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+														Ce projet à été produit durement le premier confinement lors de l'épidémie de COVID. Il consistait en une plateforme d'entraide afin de venir en aide à des personnes dépendantes ou isolées. Il incluait un recensement des commerces restés ouvert et proposant la livraison à domicile, une carte interactive où des attestations de déplacement étaient disponibles en libre service et des liens vers les sites gouvernementaux afin de relayer les mesures de l'État lors de la pandémie.
+													</p>
+													<p>
+														<a href="https://github.com/AntnPrcl/SolidariT_Covid">Voir le projet sur GitHub</a>
 													</p>
 													
 												</div>
@@ -729,79 +723,7 @@
 									</div>
 								</li>
 								
-								<li data-groups='["tech"]' >
-									<div class='inner' >
-										<img src='img/portfolio/5.jpg' alt>
-										
-										<div class='overlay' >
-											
-											<a href='#popup-5' class='view-project' >
-												View Project
-											</a>
-											
-											<!--project popup-->
-											<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-													
-													<!--project popup image-->
-													<img src='img/portfolio/5.jpg' alt>
-												
-												</figure>
-												<div class='content' >
-													
-													<!--project popup title-->
-													<h4>My Project Title</h4>
-													
-													<!--project popup description-->
-													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
-													</p>
-													
-												</div>
-												
-											</div>
-											
-										</div>
-										
-									</div>
-								</li>
 								
-								<li data-groups='["photography"]' >
-									<div class='inner' >
-										<img src='img/portfolio/6.jpg' alt>
-										
-										<div class='overlay' >
-											
-											<a href='#popup-6' class='view-project' >
-												View Project
-											</a>
-											
-											<!--project popup-->
-											<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide' >
-												<figure>
-													
-													<!--project popup image-->
-													<img src='img/portfolio/6.jpg' alt>
-												
-												</figure>
-												<div class='content' >
-													
-													<!--project popup title-->
-													<h4>My Project Title</h4>
-													
-													<!--project popup description-->
-													<p>
-														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
-													</p>
-													
-												</div>
-												
-											</div>
-											
-										</div>
-										
-									</div>
-								</li>
 								
 							</ul>
 							
